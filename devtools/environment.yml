@@ -1,0 +1,13 @@
+name: FragGraph
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - numpy
+  - scipy
+  - rdkit=2020.03.4
+  - networkx
+  - pytest
+  - tqdm
+  - gensim=3.8.3
+  - joblib
