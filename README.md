@@ -2,7 +2,7 @@ FragGraph: A Fragmentation-Based Graph Embedding Framework for QM/ML
 =======
 [![](https://img.shields.io/badge/DOI-10.1021/acs.jpca.1c06152-informational.svg)](https://www.doi.org/10.1021/acs.jpca.1c06152)
 
-FragGraph is a framework of molecular descriptors for deep learning combining ideas *graph theory, fragmentation, error-cancellation, and machine learning.* These representations can be derived from chemical graph theory with node and edge attributed from standard fingerprinting techniques on atom-centric fragmention from the fragmentation scheme of the [Connectivity Based Hierarchy (CBH)](https://doi.org/10.1021/ct200279q) of generalized isodemic reactions. 
+FragGraph is a framework of molecular descriptors for deep learning combining ideas from *graph theory, fragmentation, error-cancellation, and machine learning.* These representations can be derived from chemical graph theory with node and edge attributes from standard fingerprinting techniques on atom-centric fragmention from the fragmentation scheme of the [Connectivity Based Hierarchy (CBH)](https://doi.org/10.1021/ct200279q) of generalized isodemic reactions. 
 
 This repository provides scripts to generate the FragGraph attributed graph representation.
 
