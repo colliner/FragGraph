@@ -11,7 +11,7 @@ This repository provides scripts to generate the FragGraph attributed graph repr
 - Eric M. Collins (Indiana University) colliner@iu.edu
 - Krishnan Raghavachari (Indiana University) kraghava@iu.edu
 
-<div align="center"><img src="resources/FragGraph_cover.png" alt="FragGraph" width="700"/></div>
+<div align="center"><img src="resources/cover_FragGraph.png" alt="FragGraph" width="700"/></div>
 
 
 ### Performance of QM/ML models on 13k Hold-out set from GDB9-G4(MP2)
