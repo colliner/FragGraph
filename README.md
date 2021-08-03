@@ -11,7 +11,7 @@ This repository provides scripts to generate the FragGraph attributed graph repr
 - Eric M. Collins (Indiana University) colliner@iu.edu
 - Krishnan Raghavachari (Indiana University) kraghava@iu.edu
 
-<div align="center"><img src="resources/FragGraph_coverfigure.png" alt="FragGraph" width="700"/></div>
+<div align="center"><img src="resources/FragGraph_coverfigure.png" alt="FragGraph" width="750"/></div>
 
 
 ### Performance of QM/ML models on 13k Hold-out set from GDB9-G4(MP2)
@@ -20,7 +20,7 @@ This repository provides scripts to generate the FragGraph attributed graph repr
 |--------------|----------|----------|
 | PM7       | FG(CBH-2)|     0.50|
 | PM7 | FC-FG(CBH-2)|     0.38 |
-| PM7      | FG(CBH-2)|    0.16 |
+| B3LYP      | FG(CBH-2)|    0.16 |
 | B3LYP| FC-FG(CBH-2)|     0.12| 
 
 ### QM/ML Learning Curve
