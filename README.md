@@ -36,6 +36,8 @@ This repository provides scripts to generate the FragGraph attributed graph repr
 * networkx
 * mol2vec
 * xyz2mol
+* pytorch
+* torch-geometric
 
 ## Installation via conda
 Clone the repository:
@@ -46,5 +48,9 @@ Run `make conda_env` to create the conda environment.
 ## Testing the installation
 Activate the conda environment:
 `conda activate FragGraph`
+
+## Evaluate pretrained model
+`cd model; python eval_model.py`
+
 
 
