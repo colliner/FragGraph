@@ -1,6 +1,8 @@
 name: FragGraph
 channels:
   - conda-forge
+  - pyg
+  - pytorch
 dependencies:
   - python=3.6
   - numpy
@@ -11,3 +13,7 @@ dependencies:
   - tqdm
   - gensim=3.8.3
   - joblib
+  - pyg
+  - pytorch
+  - torchvision
+  - torchaudio
