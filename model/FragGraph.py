@@ -62,7 +62,7 @@ class NodeModel(torch.nn.Module):
 
 class FragGraph(torch.nn.Module):
     def __init__(self, data, dim1=128, dim2=128, dim3=64, deg=None, node_model='mean'):
-       super(FragGraph, self).__init__()
+        super(FragGraph, self).__init__()
         self.pool_reduce="mean"
         self.act = 'relu'
 
