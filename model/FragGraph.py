@@ -110,6 +110,7 @@ class FragGraph(torch.nn.Module):
                                     Linear(dim2,dim3), ReLU(),
                                     Linear(dim3, 1)
                                  ))
+    def forward(self, data):        
         ##Pre-GNN dense layers
         e_out = self.encode_edges[0](data.edges)
         n_out = self.encode_nodes[0](data.nodes)
