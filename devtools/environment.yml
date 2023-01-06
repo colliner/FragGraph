@@ -4,10 +4,10 @@ channels:
   - pyg
   - pytorch
 dependencies:
-  - python=3.6
+  - python=3.8
   - numpy
   - scipy
-  - rdkit=2020.03.4
+  - rdkit
   - networkx
   - pytest
   - tqdm
