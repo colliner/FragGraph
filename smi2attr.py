@@ -64,9 +64,9 @@ def smi2attr(smi):
   attr['molwt'] = molwt(mol)
   attr['num_atoms'] = num_atoms(mol)
   attr['num_heavy'] = num_heavy(mol)
-  attr['num_rings'] = num_rings(mol)
-  attr['radElec'] = radElec(mol)
-  attr['valElec'] = valElec(mol)
+  #attr['num_rings'] = num_rings(mol)
+  #attr['radElec'] = radElec(mol)
+  #attr['valElec'] = valElec(mol)
   return dict2vec(attr)
 
 def smi2mol2vec(smi,model=None):
