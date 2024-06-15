@@ -4,7 +4,10 @@ channels:
   - pyg
   - pytorch
 dependencies:
-  - python=3.8
+  - pip:
+      - gdown
+      - torch-scatter
+  - python=3.9
   - numpy
   - scipy
   - rdkit

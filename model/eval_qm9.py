@@ -5,6 +5,7 @@ warnings.filterwarnings('ignore')
 import torch
 from torch_geometric.data import Data
 from torch_geometric.loader import DataLoader
+#from torch_geometric.data import DataLoader
 import numpy as np
 
 from sklearn.model_selection import train_test_split
@@ -75,9 +76,12 @@ if __name__=="__main__":
   split_path = 'data/gdb9_hold_out.txt'
   mode = 0 
 
+  # Change path to attr graphs if needed
+  path_to_gdb9_attr = 'data/gdb9_fragment_embedded_graphs'
+
   # load data
   y_dict = load_targets('data/qm9_properties.txt')
-  fns = sorted(list(glob.glob('data/gdb9_skeleton_graphs_nocg_1a_attr300.npy')))
+  fns = sorted(list(glob.glob(f'{path_to_gdb9_attr}/*.npy')))[:2]
 
   if load_split:
     splits = load_split_fn(split_path)
@@ -95,6 +99,7 @@ if __name__=="__main__":
   X_tr = data_lst_tr
   X_te = data_lst_te
    
+  print('Creating DataLoaders')
   X_tr_batches = [b for b in DataLoader(X_tr, batch_size=32, shuffle=False)]
   X_te_batches = [b for b in DataLoader(X_te, batch_size=32, shuffle=False)]
 
